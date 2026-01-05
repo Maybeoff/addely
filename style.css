@@ -1,0 +1,174 @@
+/* Начало глобальной тёмной темы */
+:root {
+    --bg-color: #1a1a1a;
+    --text-color: #e0e0e0;
+    --border-color: #444444;
+    --accent-color: #667eea;
+}
+
+body {
+    background-color: var(--bg-color);
+    color: var(--text-color);
+}
+/* Конец глобальной темы */
+
+html { scroll-behavior: smooth; }
+        body {
+            background-color: #ff00ff;
+            color: #00ff00;
+            font-family: "Comic Sans MS", cursive, sans-serif;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
+        header {
+            background: blue;
+            border: 10px ridge yellow;
+            padding: 40px;
+            margin: 10px;
+        }
+        .mark-face {
+            border: 8px double lime;
+            display: inline-block;
+            padding: 5px;
+            background: black;
+            margin: 20px;
+            box-shadow: 10px 10px 0px red;
+        }
+        .mark-face img {
+            width: 350px;
+            display: block;
+        }
+        .main-btn {
+            background: yellow;
+            color: black;
+            font-size: 28px;
+            font-weight: bold;
+            padding: 15px 30px;
+            border: 6px outset #fff;
+            cursor: pointer;
+            text-decoration: none;
+            display: inline-block;
+            margin: 20px;
+            animation: pulse 1s infinite;
+        }
+        @keyframes pulse {
+            0% { transform: scale(1); }
+            50% { transform: scale(1.05); }
+            100% { transform: scale(1); }
+        }
+        .bio-section {
+            background: #000;
+            color: #fff;
+            margin-top: 100vh;
+            padding: 60px 20px;
+            border-top: 15px dotted yellow;
+            text-align: left;
+            max-width: 1000px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        .marquee {
+            background: red;
+            color: white;
+            font-size: 20px;
+            font-weight: bold;
+            padding: 5px;
+        }
+        .blink { animation: blinker 0.4s linear infinite; }
+        @keyframes blinker { 50% { opacity: 0; } }
+        .data-table {
+            width: 100%;
+            border: 3px solid cyan;
+            margin-top: 30px;
+            background: #111;
+        }
+        .data-table td {
+            padding: 15px;
+            border: 1px solid #333;
+            font-size: 18px;
+        }
+        .highlight { color: yellow; font-weight: bold; }
+        footer { background: blue; color: white; padding: 20px; margin-top: 50px; }
+        .gallery {
+            background: #300;
+            padding: 40px;
+            border: 10px dashed red;
+            margin: 50px auto;
+            max-width: 1200px;
+        }
+        .gallery h2 {
+            color: yellow;
+            font-size: 40px;
+            text-shadow: 5px 5px black;
+            animation: blinker 0.6s infinite;
+        }
+        .meme-img {
+            border: 10px ridge cyan;
+            background: black;
+            box-shadow: 15px 15px 0px lime;
+            margin: 30px;
+            display: inline-block;
+            max-width: 90%;
+            animation: pulse 2s infinite;
+        }
+        .meme-img img {
+            width: 100%;
+            display: block;
+        }
+        .meme-caption {
+            color: red;
+            font-size: 24px;
+            font-weight: bold;
+            background: yellow;
+            padding: 10px;
+        }
+        .video-container {
+            position: relative;
+            margin: 50px auto;
+            max-width: 90%;
+            border: 12px groove magenta;
+            background: black;
+            box-shadow: 20px 20px 0px yellow;
+            animation: pulse 1.5s infinite alternate;
+            cursor: pointer;
+        }
+        .compromat-video {
+            width: 100%;
+            height: auto;
+            display: block;
+        }
+        .play-button {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            font-size: 80px;
+            color: red;
+            text-shadow: 0 0 20px yellow;
+            animation: pulse 1s infinite;
+            pointer-events: none;
+        }
+        .video-caption {
+            color: lime;
+            font-size: 28px;
+            font-weight: bold;
+            background: red;
+            padding: 15px;
+            margin-top: 10px;
+        }
+        .veselcraft-chat {
+            border: 15px ridge #ff00ff;
+            background: black;
+            padding: 20px;
+            margin: 40px auto;
+            max-width: 95%;
+            box-shadow: 0 0 30px red;
+            animation: pulse 2s infinite;
+        }
+        .veselcraft-chat iframe {
+            width: 100%;
+            height: 800px;
+            border: 5px solid yellow;
+            background: white;
+        }
